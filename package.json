@@ -1,0 +1,29 @@
+{
+  "name": "veryfi-material-gatsby",
+  "version": "5.0.0",
+  "private": true,
+  "browserslist": [
+    ">0.25%",
+    "not dead"
+  ],
+  "dependencies": {
+    "@emotion/react": "^11.11.0",
+    "@emotion/server": "latest",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.0",
+    "gatsby": "latest",
+    "gatsby-plugin-react-helmet": "latest",
+    "mui": "^0.0.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-helmet": "latest",
+    "recharts": "^2.6.2"
+  },
+  "scripts": {
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+  }
+}
